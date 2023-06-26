@@ -1,0 +1,122 @@
+body{
+    margin: auto;
+    background-color: rgb(246, 231, 177);
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    background-color: rgb(204, 163, 131);
+}
+
+.col-1{ width:8.33%;}
+.col-2{ width:16.66%;}
+.col-3{ width:25%;}
+.col-4{ width:33.33%;}
+.col-5{ width:41.66%;}
+.col-6{ width:50%;}
+.col-7{ width:58.33%;}
+.col-8{ width:66.66%;}
+.col-9{ width:75%;}
+.col-10{ width:83.33%;}
+.col-11{ width:91.66%;}
+.col-12{ width:100%;}
+
+div.leftcol{
+    background-color:rgb(34, 9, 9);
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+div.midcol{
+    background-color: rgb(226, 175, 134);
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+div.rightcol{
+    background-color: rgb(196, 89, 53);
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+div.leftcol h1{
+    color: white;
+    margin: 40px;
+    margin-top: 80px;
+}
+div.leftcol img{
+    width:300px;
+    border-radius: 7px;
+    padding-top: 100px;
+    padding-bottom:300px ;
+}
+div.midcol h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+div.midcol .filldetails{
+    float: left;
+    width: 350px;
+    border: none;
+    border-radius: 7px;
+    margin: 40px;
+    margin-left: 50px;
+    padding-left:10px;
+    font-size:20px;
+} 
+div.midcol label{
+    float: left;
+    line-height: 15px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+div.midcol input{
+    height: 40px;
+}
+div.midcol textarea{
+    height: 80px;
+    resize: none;
+    padding:10px;
+    font-size:20px;
+    max-height: fit-content;
+}
+div.rightcol h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+div.rightcol label{
+    float: left;
+    line-height: 15px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+div.rightcol .filldetails{
+    float: left;
+    width: 350px;
+    border: none;
+    border-radius: 7px;
+    margin: 40px;
+    margin-left: 50px;
+    padding-left:10px;
+    font-size:20px;
+}
+div.rightcol input{
+    height: 40px;
+}
+div.rightcol textarea{
+    height: 80px;
+    resize: none;
+    padding:10px;
+    font-size:20px;
+    max-height: fit-content;
+}
+div.rightcol button{
+    color: white;
+    background-color: rgb(21, 3, 3);
+    border-radius: 15px;
+    width:150px;
+    height: 50px;
+    margin: 15px;
+    margin-top: 50px;
+}

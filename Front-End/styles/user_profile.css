@@ -1,0 +1,134 @@
+body{
+    margin: auto;
+    background-color: rgb(246, 231, 177);
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.col-1{ width:8.33%;}
+.col-2{ width:16.66%;}
+.col-3{ width:25%;}
+.col-4{ width:33.33%;}
+.col-5{ width:41.66%;}
+.col-6{ width:50%;}
+.col-7{ width:58.33%;}
+.col-8{ width:66.66%;}
+.col-9{ width:75%;}
+.col-10{ width:83.33%;}
+.col-11{ width:91.66%;}
+.col-12{ width:100%;}
+
+div.userleftcol{
+    background-color: rgb(17, 47, 24);
+    display: block;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#rightcolbackground{
+    width: 100%;
+    height: 500px;
+}
+
+div.userleftcol h2{
+    color: black;
+    height: 35px;
+    background-color: white;
+    margin-left:100px;
+    margin-right: 100px;
+    padding-top:9px;
+    font-size: 20px;
+    font-style:none;
+    font-weight: 100px;
+}
+
+div.userleftcol h1.user{
+    color: white;
+    font-size: 40px;
+}
+
+div.userleftcol img.usericon{
+    padding: 100px 100px 0 100px;
+}
+
+div.userleftcol button{
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 17px;
+    font-weight: 700;
+    font-size:14px;
+    margin-top:250px;
+    padding: 20px;
+
+}
+
+div.userleftcol button:active {
+    background-color: white;
+    transform: translateY(-2px);
+  }
+
+div.container{
+    position: absolute;
+    top: 30em;
+    left:27em;
+    width:40%;
+    height: 35%;
+    padding-top:30px;
+    background-color: white;
+    color: rgb(17, 47, 24);
+    text-align: center;
+    margin-left: 200px;
+    margin-right:200px;
+}
+
+div.container h1{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+div.container .userbuttons button{
+    background-color: rgb(17, 47, 24) ;
+    border-radius: 80%;
+    
+    height: 60px;
+    width:150px ;
+    color: white;
+    margin-top:50px;
+    margin-left:30px ;
+}
+
+div.container .userbuttons button:active {
+    background-color: #0a0e0b;
+    transform: translateY(4px);
+  }
+
+#logout  {
+    text-decoration: none;
+    float: right;
+    margin:10px ;
+    color: black;
+    border: none;
+    font-size:20px;
+    font-weight:600;
+}
+
+
+#home{
+    text-decoration: none;
+    float: left;
+    margin:10px ;
+    color: black;
+    border: none;
+    font-size:20px;
+    font-weight:600;
+}
+
+#logout:active ,#home:active {
+    transform: translateY(2px);
+  }

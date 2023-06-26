@@ -1,0 +1,29 @@
+table,th,td {
+
+    border : 1px solid black;
+    border-collapse : collapse ;
+    margin-top: 0px;
+    
+}
+
+th,td {
+    padding : 15px;
+}
+
+th {
+    background-color: aqua;
+}
+body{
+    margin-left:400px;
+    margin-right:auto;
+}
+.head{
+    margin-left:200px;
+    margin-top: 10px;
+}
+.line{
+    margin-left: 400px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}

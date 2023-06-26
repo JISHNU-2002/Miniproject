@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Form</title>
+    <link rel = "stylesheet" href="../styles/request_form.css"> 
+</head>
+<body>
+    <div class="reqback">
+    <div class="form-box">
+        <form class="form" action="/request" method="POST">
+            <span class="title">TAKE PART</span>
+            <span class="subtitle">Enter the details</span>
+            <div class="form-container">
+                <input type="text" class="input" name="username" placeholder="Full Name" required="">
+                <input type="email" class="input" name="email" placeholder="Email" required="">
+                <input type="text" class="input" name="location" placeholder="Location" required="">
+                <input type="text" class="input" name="contact" placeholder="Contact" required="">
+                <input type="text" class="input" name="description" placeholder="Description" required="">
+            </div>
+            <button>Request</button>
+            <button>VolunteerCall</button>
+        </form>
+        <div class="form-section">
+        </div>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+mongo
+mongod
+mongosh
+sudo systemctl status mongod
+sudo systemctl start mongod
+sudo systemctl status mongod
+sudo journalctl -u mongod.service
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+sudo chown mongodb:mongodb /tmp/mongodb-27017.sock
+sudo systemctl restart mongod
+mongosh/mongo
